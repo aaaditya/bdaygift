@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Payal Sharma — From these days</title>
+    <meta
+      name="description"
+      content="A warm farewell for Payal Sharma — from these days to a complete no contact days."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Outfit:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero" id="top">
+      <div class="hero__media" aria-hidden="true">
+        <img
+          class="hero__photo"
+          data-src="assets/these-days/hero.jpg"
+          alt=""
+        />
+        <div class="hero__atmosphere"></div>
+      </div>
+      <div class="hero__copy">
+        <p class="eyebrow reveal">From these days</p>
+        <h1 class="brand reveal">Payal Sharma</h1>
+        <p class="lede reveal">
+          A quiet thank-you for the hours we shared — lab light, office noise,
+          and all the in-between.
+        </p>
+        <a class="scroll-cue reveal" href="#memories">See the memories</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="memories" id="memories" aria-labelledby="memories-title">
+        <div class="section-head">
+          <p class="eyebrow reveal">These days</p>
+          <h2 id="memories-title" class="section-title reveal">
+            Kept in the room with us
+          </h2>
+          <p class="section-note reveal">
+            Office and lab moments — the ordinary days that turned into
+            something worth keeping.
+          </p>
+        </div>
+        <div class="gallery" id="these-days-gallery">
+          <!-- Populated by script from assets/these-days/ -->
+        </div>
+      </section>
+
+      <section class="today" id="today" aria-labelledby="today-title">
+        <div class="section-head">
+          <p class="eyebrow reveal">Today</p>
+          <h2 id="today-title" class="section-title reveal">Still becoming</h2>
+          <p class="section-note reveal">
+            Drop new photos into <code>assets/today/</code> — this section is
+            ready for them.
+          </p>
+        </div>
+        <div class="today-slot" id="today-gallery">
+          <div class="today-placeholder" data-today-empty>
+            <span>Photos for today will live here</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="closing" id="closing" aria-labelledby="closing-title">
+        <div class="closing__inner">
+          <p class="eyebrow reveal">And then</p>
+          <h2 id="closing-title" class="closing__title reveal">
+            A complete no contact days
+          </h2>
+          <p class="closing__body reveal">
+            Not an ending written in haste — just a soft close. Carry the good
+            parts with you, Payal.
+          </p>
+          <p class="signoff reveal">With warmth,<br />your people here</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-foot">
+      <a href="#top">Back to Payal</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
