@@ -346,6 +346,74 @@ code {
   display: none;
 }
 
+/* —— Team notes —— */
+.notes {
+  border-top: 1px solid var(--line);
+  background:
+    radial-gradient(900px 480px at 20% 0%, rgba(223, 234, 228, 0.9), transparent 55%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.35), rgba(243, 247, 244, 0.8));
+}
+
+.notes-list {
+  display: grid;
+  gap: 1.35rem;
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 0.5rem clamp(1.25rem, 5vw, 3.5rem) clamp(3.5rem, 8vw, 5.5rem);
+}
+
+.note {
+  margin: 0;
+  padding: 1.35rem 1.4rem 1.45rem;
+  background:
+    linear-gradient(165deg, rgba(255, 252, 247, 0.92), rgba(232, 240, 235, 0.75));
+  border-left: 3px solid rgba(47, 107, 90, 0.35);
+  box-shadow: none;
+  color: var(--ink);
+  font-weight: 300;
+  font-size: clamp(1rem, 2.2vw, 1.08rem);
+  line-height: 1.65;
+}
+
+.note p {
+  margin: 0 0 0.85rem;
+}
+
+.note p:last-child {
+  margin-bottom: 0;
+}
+
+.note__to {
+  font-family: var(--display);
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: var(--leaf-deep);
+  letter-spacing: -0.01em;
+  margin-bottom: 1rem !important;
+}
+
+.note--letter {
+  padding: 1.6rem 1.5rem 1.75rem;
+  background:
+    linear-gradient(180deg, rgba(255, 253, 248, 0.95), rgba(236, 243, 238, 0.8));
+  border-left-color: rgba(217, 164, 65, 0.45);
+}
+
+.note--letter p {
+  margin-bottom: 0.95rem;
+  line-height: 1.7;
+}
+
+@media (min-width: 720px) {
+  .note {
+    padding: 1.55rem 1.75rem 1.65rem;
+  }
+
+  .note--letter {
+    padding: 1.85rem 2rem 2rem;
+  }
+}
+
 /* —— Closing / peace —— */
 .closing {
   position: relative;
