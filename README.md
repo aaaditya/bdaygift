@@ -1,6 +1,8 @@
 # Farewell — Payal Sharma
 
-A small static farewell site: **From these days → A complete no contact days**.
+A small static farewell site.
+
+**Arc:** From these days → no contact → our final ones → peace.
 
 ## Open locally
 
@@ -9,11 +11,13 @@ cd /workspace   # or this repo root
 python3 -m http.server 8080
 ```
 
-Then open http://localhost:8080
-
-Or open `index.html` directly in a browser (gallery image discovery still works over `file://` for present files).
+Open http://localhost:8080
 
 ## Photos
 
-- **These days:** put JPGs in `assets/these-days/` (`hero.jpg` + `01.jpg`…`06.jpg`)
-- **Today:** put JPGs in `assets/today/` (`01.jpg`…) when ready
+| Chapter | Folder | Files |
+|---|---|---|
+| From these days (office/lab) | `assets/these-days/` | `hero.jpg`, `01.jpg`…`06.jpg` |
+| Final days | `assets/final/` | `01-coffee.jpg`, `02-movies.jpg`, `03-night-out.jpg` |
+
+`assets/today/` is kept as an alternate drop folder for final-day shots.
